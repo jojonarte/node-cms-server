@@ -1,4 +1,6 @@
-import { loginUseCase} from '../use-cases/';
+import { loginUseCase } from '../use-cases/';
+
+import makeLoginController from './login.controller';
 
 const loginController = makeLoginController({ loginUseCase });
 
